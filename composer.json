@@ -1,0 +1,19 @@
+{
+    "name": "matt/php-composer-hello",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Matt\\PhpComposerHello\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rachmat Ardico",
+            "email": "rahmatardiko99@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=8.0"
+    }
+}
